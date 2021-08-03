@@ -1,11 +1,11 @@
-<section id="blogposts">
-    {{#each bp as |bp|}}
+<section id="posts">
+    {{#each bpost as |bpost|}}
     <div class="postItem col-md-12">
         <a href='/post/{{bp.id}}'>
             <div class="card">
             <div class="card-body">
-                <h1>{{bp.title}}</h1>
-                <h6 class="card-subtitle text-muted">Author: {{bp.user.username}}</h6>
+                <h1>{{bpost.title}}</h1>
+                <h6 class="card-subtitle text-muted">Author: {{bpost.user.username}}</h6>
                 <p class="card-text">{{this.content}}</p> 
             </div>
             </div>
