@@ -1,19 +1,16 @@
-<main class="form-signin text-center">
-  <form id="signup-form">
-    <h1 class="h3 mb-3 fw-normal">Sign up!</h1>
-
-    <div class="form-floating mb-3">
-      <input type="text" class="form-control" id="username-signup" placeholder="Doe246" autofocus="true">
-      <label for="username-signup">Username</label>
+<section id="registrationForm">
+    <h2> Signup </h2>
+    <div id="holder">
+        <div class="row px-3 form-item"> <label class="mb-1">
+                <h6 class="mb-0 text-sm">Email Address</h6>
+            </label> <input name="email" placeholder="Ex: (myname@email.com) " id="email-entry"> </div>
+        <div class="row px-3 form-item"> <label class="mb-1">
+                <h6 class="mb-0 text-sm">Password</h6>
+            </label> <input type="password" name="password" placeholder="Must be at least 8 characters" id="password-entry"> </div>
+        <div class="row px-3 mb-4">
+        </div>
+        <div class="row mb-3 px-3"> <button type="button" class="btn btn-primary" id="registerBtn">Submit</button> </div>
     </div>
-    <div class="form-floating mb-3">
-      <input type="password" class="form-control" id="password-signup" placeholder="Password" autofocus="true">
-      <label for="password-signup">Password</label>
-    </div>
+</section>
 
-    <button class="w-100 btn btn-lg btn-info mb-3" type="submit">Sign up</button>
-    <a class="login-link" href="/login">Log in </a>
-  </form>
-</main>
-
-<script src="../public/js/signup.js"></script>
+<script src="../../public/js/signup.js"></script>
